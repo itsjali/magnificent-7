@@ -1,12 +1,12 @@
-# Magnificence
+# Magnificent-7
 
-Magnificence is a Django-based web application that is able to provide the top 7 players in the English Premier League using data from an external API.
+Magnificent-7 is a Django-based web application that is able to provide the top 7 players in the English Premier League using data from an external API.
 
 A Django Rest-Framework view is configured to handle a GET request to retrieve the data and is validated using Serializers. An `InboundSerializer` to validate the response data from the API and an `OutboundSerializer` to validate the data that processes the retrieval of the Magnificent 7. Additionally, a param can be passed to in the request to specifically find the top 7 players in a team.
 
 ## Installation 
 ```
-git clone https://github.com/itsjali/Magnificence.git
+git clone https://github.com/itsjali/Magnificent-7.git
 cd Magnificence
 
 python3 -m venv .venv
