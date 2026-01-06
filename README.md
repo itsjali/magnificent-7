@@ -7,7 +7,7 @@ A Django Rest-Framework view is configured to handle a GET request to retrieve t
 ## Installation 
 ```
 git clone https://github.com/itsjali/Magnificent-7.git
-cd Magnificence
+cd magnificence
 
 python3 -m venv .venv
 source .venv/bin/activate
